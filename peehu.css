@@ -5,7 +5,7 @@
 
 .container {
     height: 100vh;
-    width: 300vh;
+    width: 218vh;
     background-image: url(im.jpg);
     background-position: center;
     background-size: cover;
@@ -24,7 +24,7 @@
 }
 
 .logo {
-    width: 150px;
+    width: 90px;
     cursor: pointer;
 }
 
@@ -46,5 +46,60 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration-color: brown;
+    text-decoration- none;
+    color: white;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: yellow;
+}
+
+.content p {
+    font-size: 20px;
+    color: rgb(0, 4, 255);
+}
+
+.content {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.content .btn {
+    display: inline-block;
+    background: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(red, green, blue, alpha);
+}
+
+.arrow-icons {
+    margin-top: 150px;
+    display: flex;
+}
+
+.arrow-icons img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.feature-img {
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+
+.social-links {
+    transform: rotate(-10deg);
+    position: static;
+    left: -2px;
+    bottom: 180px;
 }
